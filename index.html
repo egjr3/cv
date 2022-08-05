@@ -4,91 +4,84 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CV - Edgar Guerra</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/favicon.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Edgar Guerra</title>
   </head>
   <body>
-    <table cellspacing="20">
-      <td>
+    <div class="top-container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+      <h1>I'm Edgar.</h1>
+      <h2>a web developer.</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+      <img src="images/mountain.png" alt="mountain" />
+    </div>
+
+    <div class="middle-container">
+      <div class="profile">
         <img
-          src="img/edgar-profile.png"
-          alt="Edgar Guerra"
-          height="200px"
-          width="200px"
+          class="profile-picture"
+          src="images/edgar.png"
+          alt="profile-picture"
         />
-        <h1>Edgar Guerra Jiménez</h1>
-      </td>
-      <td>
-        <p>
+        <h2>Hello.</h2>
+        <p class="personal-description">
           Enthusiastic Computing Engineering graduate in Mataró College of
           Technology Pompeu Fabra with two years full-time professional
           experience on web mastering. Decisive, resourceful and proven ability
           to meet deadlines. Excelent team-player able to motivate others on
           client-satisfaction projects. Fluent spoken and written English.
         </p>
-        <h2>Experience</h2>
-        <table cellspacing="10">
-          <tr>
-            <td>june 2020 - june 2022</td>
-            <td>
-              <strong>Alarona Studio</strong>
-              <br />Web development and maintenance.
-            </td>
-          </tr>
-          <tr>
-            <td>june 2019 - september 2019</td>
-            <td>
-              <strong>Centre de Coneixement Urbà (CCU) TecnoCampus </strong>
-              <br />Graphic resources development on Geographic Information
-              Systems.
-            </td>
-          </tr>
-        </table>
-        <h2>Education</h2>
-        <table cellspacing="10">
-          <tr>
-            <td>2017 - 2022</td>
-            <td>
-              <strong>Computing Engineering</strong><br />College of Technology
-              Pompeu Fabra, Mataró
-            </td>
-          </tr>
-        </table>
-        <h2>Skills</h2>
-        <table cellspacing="10">
-          <tr>
-            <td>PHP</td>
-            <td>⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>JS</td>
-            <td>⭐⭐⭐</td>
-          </tr>
-          <tr>
-            <td>AGILE</td>
-            <td>⭐⭐</td>
-          </tr>
-          <tr>
-            <td>WORDPRESS</td>
-            <td>⭐⭐⭐⭐⭐</td>
-          </tr>
-        </table>
-        <h2>Hobbies</h2>
-        <ul>
-          <li>Videogames</li>
-          <li>Workout</li>
-          <li>Cinema</li>
-          <li>Dungeons & Dragons</li>
-        </ul>
-        <h2><a href="contact.html">Contact</a></h2>
-      </td>
-    </table>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="web-design-image" src="images/web-design.png" alt="" />
+          <h3>Design & Development</h3>
+          <p>
+            I started learning code when I was 13 years old because I wanted to
+            make my own video games. Over time, I have gained a wealth of
+            experience designing and developing web applications.
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="teamwork-image" src="images/teamwork.png" alt="" />
+          <h3>Team Work</h3>
+          <p>
+            I like to work collaboratively with others towards a common goal. I
+            enjoy playing role playing games with my friends and to get on board
+            to an incredible adventure to either hunt a dangerous beast, find
+            the forgotten treasure or unravel the mystery of the lost dragon.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>If you love role play as much as I do.</h3>
+        <p class="contact-text">
+          Love role playing? Let's talk about how awesome it is! <br />
+          We can code our next adventure!
+        </p>
+        <a class="btn" href="mailto:edgar.guerra.j@email.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        target="_blank"
+        href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BGJaLFLDfRD6g12C4B62qOw%3D%3D"
+        >LinkedIn</a
+      >
+      <p class="copyright">© Edgar Guerra.</p>
+    </div>
   </body>
 </html>
