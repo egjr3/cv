@@ -30,6 +30,16 @@ a {
 a:hover{
     color: #EAF6F6;
   }
+a.light{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a.light:hover {
+  color: #11999E;
+}
 p{
     line-height: 2;
   }
@@ -60,6 +70,7 @@ hr{
   }
 .profile-picture {
     width: 200px;
+    padding-bottom: 20px;
   }
 .skill-row {
     line-height: 2;
@@ -85,7 +96,7 @@ hr{
     background-image: -o-linear-gradient(top, #11cdd4, #11999e);
     background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
     background-image: linear-gradient(to bottom, #11cdd4, #11999e);
-    background: #3498db;
+    background: #66BFBF;
     border-radius: 8px;
     color: #ffffff;
     font-family: 'Montserrat', sans-serif;
@@ -99,12 +110,12 @@ hr{
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
-    background: #3cb0fd;
+    background: #11999E;
     text-decoration: none;
   }
 .bottom-container{
     background-color: #66BFBF;
-    padding: 50px 0 20px;
+    padding: 50px 0 50px;
   }
 .personal-description{
     margin: auto;

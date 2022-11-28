@@ -1,87 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Montserrat&family=Sacramento&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" href="images/favicon.png" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Edgar Guerra</title>
-  </head>
-  <body>
-    <div class="top-container">
-      <img class="top-cloud" src="images/cloud.png" alt="cloud" />
-      <h1>I'm Edgar.</h1>
-      <h2>a web developer.</h2>
-      <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
-      <img src="images/mountain.png" alt="mountain" />
-    </div>
 
-    <div class="middle-container">
-      <div class="profile">
-        <img
-          class="profile-picture"
-          src="images/edgar.png"
-          alt="profile-picture"
-        />
-        <h2>Hello.</h2>
-        <p class="personal-description">
-          Enthusiastic Computing Engineering graduate in Mataró College of
-          Technology Pompeu Fabra with two years full-time professional
-          experience on web mastering. Decisive, resourceful and proven ability
-          to meet deadlines. Excelent team-player able to motivate others on
-          client-satisfaction projects. Fluent spoken and written English.
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital@1&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="images/favicon.png" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Edgar Guerra</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <a class="navbar-brand" href="#">I'm Edgar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#home">Home <span class="sr-only">(current)</span></a>
+        <a class="nav-item nav-link" href="#skills">Skills</a>
+        <a class="nav-item nav-link" href="#projects">Projects</a>
+        <a class="nav-item nav-link" href="#contact-me">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <div id="home" class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+    <h1>I'm Edgar.</h1>
+    <h2>a web developer and automation enthusiast.</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+    <img src="images/mountain.png" alt="mountain" />
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class="profile-picture" src="images/edgar.png" alt="profile-picture" />
+      <h2>Hello.</h2>
+      <p class="personal-description">
+        I am an enthusiastic Computing Engineering graduate in Mataró College of
+        Technology Pompeu Fabra with two years full-time professional
+        experience on web mastering. Decisive, resourceful and proven ability
+        to meet deadlines. Excelent team-player able to motivate others on
+        client-satisfaction projects. Fluent spoken and written English.
+      </p>
+    </div>
+    <hr />
+    <div id="skills" class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="web-design-image" src="images/web-design.png" alt="" />
+        <h3>Design & Development</h3>
+        <p>
+          I started learning code when I was 13 years old because I wanted to
+          make my own video games. Over time, I have gained a wealth of
+          experience designing and developing web applications.
         </p>
       </div>
-      <hr />
-      <div class="skills">
-        <h2>My Skills.</h2>
-        <div class="skill-row">
-          <img class="web-design-image" src="images/web-design.png" alt="" />
-          <h3>Design & Development</h3>
-          <p>
-            I started learning code when I was 13 years old because I wanted to
-            make my own video games. Over time, I have gained a wealth of
-            experience designing and developing web applications.
-          </p>
-        </div>
-        <div class="skill-row">
-          <img class="teamwork-image" src="images/teamwork.png" alt="" />
-          <h3>Team Work</h3>
-          <p>
-            I like to work collaboratively with others towards a common goal. I
-            enjoy playing role playing games with my friends and to get on board
-            to an incredible adventure to either hunt a dangerous beast, find
-            the forgotten treasure or unravel the mystery of the lost dragon.
-          </p>
-        </div>
-      </div>
-      <hr />
-      <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>If you love role play as much as I do.</h3>
-        <p class="contact-text">
-          Love role playing? Let's talk about how awesome it is! <br />
-          We can code our next adventure!
+      <div class="skill-row">
+        <img class="teamwork-image" src="images/teamwork.png" alt="" />
+        <h3>Team Work</h3>
+        <p>
+          I like to work collaboratively with others towards a common goal. I
+          enjoy playing role playing games with my friends and to get on board
+          to an incredible adventure to either hunt a dangerous beast, find
+          the forgotten treasure or unravel the mystery of the lost dragon.
         </p>
-        <a class="btn" href="mailto:edgar.guerra.j@email.com">CONTACT ME</a>
       </div>
     </div>
-
-    <div class="bottom-container">
-      <a
-        class="footer-link"
-        target="_blank"
-        href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3BGJaLFLDfRD6g12C4B62qOw%3D%3D"
-        >LinkedIn</a
-      >
-      <p class="copyright">© Edgar Guerra.</p>
+    <hr />
+    <div id="projects" class="skills">
+      <h2>My Projects.</h2>
+      <div class="skill-row">
+        <img class="web-design-image" src="images/cookie.png" alt="" />
+        <a href="https://github.com/egjr3/automated-cookie-clicker" target="_blank">
+          <h3>Automated Cookie Clicker</h3>
+        </a>
+        <p>
+          Have you ever heard about a video game called Cookie Clicker?<br><br>
+          It's a videogame where the user clicks on a big cookie on the screen, earning a single cookie per click and you can progress upon purchasing assets that automatically produce more cookies that
+          you will spend on purchasing more assets to produce more cookies and so on. It's a never ending game. <br><br>
+          Given that I don't have much time to play it I decided to create a bot that will play for me. Isn't that awesome! <br>
+          Don't worry, It will play just for five minutes. We all need healthy gaming habits.
+        </p>
+        <a class="light" href="https://github.com/egjr3/automated-cookie-clicker" target="_blank">View project</a>
+      </div>
     </div>
-  </body>
+    <hr />
+    <div id="contact-me" class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love role play as much as I do.</h3>
+      <p class="contact-text">
+        Love role playing? Let's talk about how awesome it is! <br />
+        We can code our next adventure!
+      </p>
+      <a class="btn" href="mailto:edgar.guerra.j@email.com">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" target="_blank" href="https://github.com/egjr3">GitHub</a>
+    <a class="footer-link" target="_blank"
+      href="https://www.linkedin.com/in/edgar-guerra-jim%C3%A9nez-153810208">LinkedIn</a>
+  </div>
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
