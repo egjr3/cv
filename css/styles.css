@@ -62,19 +62,25 @@ hr{
     position: absolute;
     right: 300px;
     top: 50px;
+
   }
 .bottom-cloud {
-    bottom: 300px;
+    top: 360px;
     left: 300px;
     position: absolute;
+
   }
+.mountain{
+  width: 500px;
+}
+
 .profile-picture {
     width: 200px;
     padding-bottom: 20px;
   }
 .skill-row {
     line-height: 2;
-    margin: 100px auto 100px auto;
+    margin: 150px auto 150px auto;
     text-align: left;
     width: 50%;
   }
@@ -129,3 +135,16 @@ hr{
     font-size: 0.75rem;
     padding: 20px 0;
   }
+
+@media only screen and (max-width: 600px) {
+  .mountain {
+      width: 70%;
+    }
+  .skill-row {
+    margin: 100px auto 100px auto;
+    width: 70%;
+  }
+  .personal-description {
+    width: 70%;
+  }
+}
