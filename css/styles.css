@@ -52,7 +52,7 @@ p {
 }
 
 hr {
-  border-color: #EAF6F6;
+  border-color: #a9ebeb;
   border-style: dotted none none;
   border-width: 5px;
   margin: 100px auto;
@@ -97,13 +97,13 @@ hr {
   width: 50%;
 }
 
-.teamwork-image {
+.right-image {
   float: right;
   margin-left: 30px;
   width: 20%;
 }
 
-.web-design-image {
+.left-image {
   float: left;
   margin-right: 30px;
   width: 20%;
@@ -159,7 +159,7 @@ hr {
 @media only screen and (max-width: 600px) {
   .top-cloud {
     position: absolute;
-    width: 50%;
+    width: 35%;
     right: 300px;
     top: 50px;
   }
